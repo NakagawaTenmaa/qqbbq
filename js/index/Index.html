@@ -1,0 +1,45 @@
+<!--
+  Index.html
+  Author: Tamamura Shuuki
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="Index.css">
+    <script type="text/javascript" src="Index.js"></script>
+  </head>
+  <body>
+
+    <!--ユーザー名を表示する-->
+    <div id="user_name"></div>
+    <script>SetUserName('玉村');</script>
+    <!--/ユーザー名を表示する-->
+
+    <!--ユーザーIDを表示する-->
+    <p>
+      <div id="user_id"></div>
+      <script>SetUserID(19990105);</script>
+    </p>
+    <!--/ユーザーのIDを表示する-->
+
+    <!--住所を表示する-->
+    <p>
+      <div id="user_address"></div>
+      <script>SetUserAddress('愛知県一宮市今伊勢町馬寄御祭田38-1');</script>
+    </p>
+    <!--/住所を表示する-->
+
+    <!--商品リスト-->
+    <div id="productList"></div>
+    <script>SetProduct('肉', 100);</script>
+    <!--/商品リスト-->
+    
+    <!--合計を表示-->
+    <div id="total"></div>
+    <script>GetTotal();</script>
+    <!--/合計を表示-->
+  </body>
+</html>
